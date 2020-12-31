@@ -1,0 +1,125 @@
+body {
+    margin: 1rem auto;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  h1 {
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 3rem;
+    color: rgb(0, 0, 150);
+    padding: 0.5rem;
+  }
+  
+  h2 {
+    display: inline;
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1rem;
+    margin: 0.25rem;
+  }
+  
+  input[type="text"] {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 2px;
+    padding: 0.2em;
+  }
+  input[type="text"]:focus {
+    background-color: #c4dbf5;
+    border: none;
+  }
+  .container {
+    min-width: 400px;
+    max-width: 720px;
+  
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .location {
+    width: 30%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
+    background: white;
+    border-radius: 10px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  i {
+    padding: 0.5rem;
+  }
+  
+  i:hover {
+    cursor: pointer;
+  }
+  
+  .currentcond p {
+    display: inline;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem;
+  }
+  
+  .temp {
+    display: inline;
+    position: relative;
+    bottom: 4rem;
+    left: 4rem;
+    font-size: 5rem;
+    font-weight: 600;
+    color: rgb(0, 0, 150);
+  }
+  
+  main img {
+    max-width: 300px;
+    display: block;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .forecast {
+    margin: 1rem auto;
+    width: 95%;
+    text-align: left;
+  }
+  
+  .card {
+    margin: 0.2rem;
+    padding: 0;
+    border: none;
+    border-radius: 0.25rem;
+    min-width: fit-content;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 0.5rem;
+    word-wrap: normal;
+  }
+  
+  .card-body img {
+    display: block;
+    max-width: 100px;
+  }
+  
+  .dualtemp {
+    color: rgb(0, 0, 150);
+    font-weight: 600;
+    float: right;
+  }
+  
